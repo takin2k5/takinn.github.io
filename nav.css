@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.nav-nav{
+	position: fixed;
+	background-color: black;
+}
+.nav-icon-main-div{
+	background-color: black;
+	width: 120px;
+	padding: 65px 12px;
+	border-top-right-radius: 10px;
+}
+.nav-icon-main{
+	position: relative;
+	text-align: center;
+}
+.bordert{
+	height: 1px;
+	text-align: center;
+	margin-left: 22px;
+	width: 101px;
+	background-color: black;
+	border-bottom: 2px solid white;
+	margin-bottom: 10px;
+}
+.nav-icon{
+	padding: 30px 2px;
+	border-radius: 50%;
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+.navmain{
+	background-color: black;
+	width: 135px;
+	height: 1000px;
+	margin-left:12px;
+}
+.nav li{
+	cursor: pointer;
+	width: 120px;
+	list-style: none;
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px 0;
+	background-color:black;
+	color: white;
+	transition-delay: 0.1;
+}
+.nav li:hover{
+	background-color: white;
+	color: black;
+}

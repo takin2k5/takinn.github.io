@@ -1,0 +1,31 @@
+.main-content{
+	position: relative;
+	margin-left: 150px;
+	height: 676px;
+	background: linear-gradient(to right, #154360, #5499C7);
+}
+.contents{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.contents label{
+	font-display: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+}
+.vb{
+	font-family: Arial;
+	font-weight: 600;
+	color: black;
+	font-size: 20px;
+}
+.by-takin{
+	font-family: Arial;
+	font-weight: 700;
+	color: purple;
+	font-size: 30px;
+}

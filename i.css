@@ -1,0 +1,105 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	margin-bottom: 25px;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 25px;
+	width: 1310px;
+	height: 300px;
+	transform: translatex(-50%);
+}
+.main-header{
+	display: inline-flex;
+}
+.main-header li{
+	list-style: none;
+}
+.cover-image{
+	height: 300px;
+	width: 700px;
+}
+.lis-profile-and-story{
+	margin-left: 10px;
+	border: 1px solid;
+	height: 298px;
+	width: 600px;
+}
+.profile{
+	padding-top: 30px;
+	padding-left: 30px;
+	display: inline-flex;
+	width: 350px;
+}
+.profile div{
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 300px;
+}
+.avatar{
+	width: 100px;
+	border-radius: 50%;
+}
+.name{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: Arial;
+	padding-bottom: 3px;
+	border-bottom: 1px solid;
+}
+.job{
+	font-size: 25px;
+	font-weight: 600;
+	font-family: arial;
+}
+.story{
+	margin-top: 20px;
+	padding-left: 30px;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600;
+}
+.contact{
+	margin-top: 350px;
+	position: absolute;
+	display: inline-flex;
+	left: 50%;
+	transform: translatex(-50%);
+}
+.divmaincontact{
+	padding-top: 3px;
+	border: 1px solid;
+	border-radius: 10px;
+	width: 350px;
+	margin: 0 50px;
+}
+.divmaincontact:hover{
+	background: lightgray;
+	transition: 0.25s;
+	border-color: red;
+}
+.main-contact{
+	display: inline-flex;
+	position: relative;
+}
+.icon{
+	user-select: none;
+	pointer-events: none;
+	width: 75px;
+	padding-left: 17.5px;
+}
+
+.main-contact a{
+	user-select: none;
+	pointer-events: none;
+	font-family: arial;
+	font-weight: 600;
+	font-size: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 95px;
+	position: absolute;
+}

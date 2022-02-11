@@ -24,6 +24,8 @@
 }
 .iconmb{
 	width: 50px;
+	user-select: none;
+	pointer-events: none;
 }
 .mmm{
 	font-family: arial;
@@ -36,6 +38,8 @@
 	float: right;
 	font-size: 30px;
 	padding-top: 10px;
+	user-select: none;
+	pointer-events: none;
 }
 .a1{
 	position: absolute;

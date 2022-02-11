@@ -1,1 +1,0 @@
-# takinn.github.io

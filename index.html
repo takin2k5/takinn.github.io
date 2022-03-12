@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="lockk">
+		<div id="lock" class="lock"></div>
+		<div class="tbbt">
+			<a id="textbox" class="textbox">Bạn có đang bị ngu không?</a>
+			<input id="button" onclick="xn()" class="button" type="button" name="" value="Có">
+		</div>
+	</div>
+	<div>
+		<div id="textt" class="textt">
+			<a class="hu">Em biết chị bị ngu mà Tuyền<a/>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function xn() {
+			var gt = document.getElementById('textbox').value
+			if (gt="1") {
+				document.getElementById('lock').style.display = 'none'
+				document.getElementById('textbox').style.display = 'none'
+				document.getElementById('button').style.display = 'none'
+				document.getElementById('textt').style.display = 'inline-block'
+			}
+
+		}
+	</script>
+</body>
+</html>
